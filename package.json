@@ -1,19 +1,31 @@
 {
-  "name": "supabase-slack-clone-basic",
-  "version": "0.1.1",
-  "license": "MIT",
+  "name": "supabase-chat-example",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "export": "next export",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.35.3",
-    "next": "latest",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@supabase/supabase-js": "^1.35.4",
+    "clsx": "^1.2.1",
+    "next": "^12.3.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.21",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
     "sass": "^1.26.2",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.8.4"
   }
 }
